@@ -1,0 +1,10 @@
+/home/aronm/Documents/projects/coding/wgpu_tutorials/beginner/1_deps_window/target/debug/deps/wayland_client-873ffbf9ed18946d.d: /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/lib.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/conn.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/event_queue.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/globals.rs
+
+/home/aronm/Documents/projects/coding/wgpu_tutorials/beginner/1_deps_window/target/debug/deps/libwayland_client-873ffbf9ed18946d.rlib: /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/lib.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/conn.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/event_queue.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/globals.rs
+
+/home/aronm/Documents/projects/coding/wgpu_tutorials/beginner/1_deps_window/target/debug/deps/libwayland_client-873ffbf9ed18946d.rmeta: /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/lib.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/conn.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/event_queue.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/globals.rs
+
+/home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/lib.rs:
+/home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/conn.rs:
+/home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/event_queue.rs:
+/home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.12/src/globals.rs:

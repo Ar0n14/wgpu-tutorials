@@ -1,0 +1,9 @@
+/home/aronm/Documents/projects/coding/wgpu_tutorials/beginner/1_deps_window/target/wasm32-unknown-unknown/release/deps/wasm_bindgen_futures-e1c58efbd3574f09.d: /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/lib.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/queue.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/task/singlethread.rs
+
+/home/aronm/Documents/projects/coding/wgpu_tutorials/beginner/1_deps_window/target/wasm32-unknown-unknown/release/deps/libwasm_bindgen_futures-e1c58efbd3574f09.rlib: /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/lib.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/queue.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/task/singlethread.rs
+
+/home/aronm/Documents/projects/coding/wgpu_tutorials/beginner/1_deps_window/target/wasm32-unknown-unknown/release/deps/libwasm_bindgen_futures-e1c58efbd3574f09.rmeta: /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/lib.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/queue.rs /home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/task/singlethread.rs
+
+/home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/lib.rs:
+/home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/queue.rs:
+/home/aronm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-bindgen-futures-0.4.58/src/task/singlethread.rs:
