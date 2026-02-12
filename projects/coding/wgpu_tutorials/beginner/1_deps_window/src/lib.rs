@@ -15,6 +15,7 @@ use winit::{
 #[cfg(target_arch = "wasm32")]
 use wasm_bindgen::prelude::*;
 
+#[derive(Debug, Clone)]
 pub struct State {
     window: Arc<Window>,
 }
@@ -24,14 +25,10 @@ impl State {
         Ok(Self { window })
     }
 
-    pub fn resize(&mut self, _width: u32, _height: u32) {
-        todo!()
-    }
+    pub fn resize(&mut self, _width: u32, _height: u32) {}
 
     pub fn render(&mut self) {
         self.window.request_redraw();
-
-        todo!()
     }
 }
 
@@ -76,6 +73,7 @@ impl ApplicationHandler<State> for App {
         #[cfg(not(target_arch = "wasm32"))]
         {
             // If not on the web we can use pollster to await the
+
             self.state = Some(pollster::block_on(State::new(window)).unwrap());
         }
         #[cfg(target_arch = "wasm32")]
@@ -112,7 +110,7 @@ impl ApplicationHandler<State> for App {
     fn window_event(
         &mut self,
         event_loop: &ActiveEventLoop,
-        window_id: winit::window::WindowId,
+        _window_id: winit::window::WindowId,
         event: WindowEvent,
     ) {
         let state = match &mut self.state {
@@ -134,13 +132,13 @@ impl ApplicationHandler<State> for App {
                         ..
                     },
                 ..
-            } => {
-                #[allow(clippy::single_match)] //WARN: tmp
-                match (code, key_state.is_pressed()) {
-                    (KeyCode::Escape, true) => event_loop.exit(),
-                    _ => {}
+            } => match (code, key_state.is_pressed()) {
+                (KeyCode::Escape, true) => {
+                    event_loop.exit();
+                    panic!();
                 }
-            }
+                _ => {}
+            },
             _ => {}
         }
     }
@@ -151,11 +149,13 @@ pub fn run() -> anyhow::Result<()> {
     {
         env_logger::init();
     }
+
     #[cfg(target_arch = "wasm32")]
     {
         console_log::init_with_level(log::Level::Info).unwrap_throw();
     }
     let event_loop = EventLoop::with_user_event().build()?;
+
     let mut app = App::new(
         #[cfg(target_arch = "wasm32")]
         &event_loop,
@@ -171,6 +171,5 @@ pub fn run() -> anyhow::Result<()> {
 pub fn run_web() -> Result<(), wasm_bindgen::JsValue> {
     console_error_panic_hook::set_once();
     run().unwrap_throw();
-
     Ok(())
 }
